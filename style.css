@@ -80,7 +80,7 @@ h2{
 }
 .kep img{
     float: right;
-    box-shadow: #524e4e;
+    box-shadow: 7px 7px #888888;
     margin: 5px;
 }
 p{
