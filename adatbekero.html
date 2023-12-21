@@ -28,20 +28,20 @@
             </div>
         </aside>
         <article>
-            <table>
-                <tr>
-                    <td>Név:</td>
-                    <td>..................................................................</td>
-                </tr>
-                <tr>
-                    <td>Cím:</td>
-                    <td>..................................................................</td>
-                </tr>
-                <tr>
-                    <td>Ajándék:</td>
-                    <td>..................................................................</td>
-                </tr>
-            </table>
+            <h2>Adatbekérö</h2>
+                    <form id="form">
+                        <fieldset>
+                            <legend>Üzenetküldés</legend>
+                            <label>Név: </label>
+                                <input id="nev" type="text" placeholder="Név"><br>
+                            <label>Email cím: </label>
+                                <input id="email" type="email" placeholder="Email cím"><br>
+                            <label>Üzenet szövege: </label>
+                                <textarea id="uzenet" rows="4" cols="40"></textarea><br>
+                            <input type="button" id="kuld" value="Üzenetküldés">
+                            <input type="button" id="torles" value="Adatok törlése">
+                        </fieldset>
+                    </form>
             </article>
         <footer>@ Minden jog fenntartva!</footer>
     </main>
