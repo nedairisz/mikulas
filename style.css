@@ -110,9 +110,17 @@ td{
         grid-template-areas:
         "f"
         "n"
-        "a"
         "as"
+        "a"
         "f"
         ;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    aside{
+        display: grid;
+        grid-template-columns: 1fr;
     }
   }
